@@ -8,55 +8,28 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.header {
-    background-color: rgb(199, 198, 198);
-    color: rgb(0, 0, 0);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem; 
-}
-
-.nav__lista {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    
-}
-
-.nav__item {
-    margin-left: 16px;
-    margin-right: 16px;
-}
-
-.header__icono {
-    font-size: 32px;
-    color: orange;
-    text-decoration: none;
-    display: none;
-}
-
 .header__logo {
     width: 150px;
     height: 70px;
     margin-left: 10px;
+    margin-right: 20px;
+}
+.d-flex input {
+    padding-right: 250px;
+    margin-top: 5px;
+}
+.btn {
+    height: 38px;
+    width: 100px;
 }
 
 /* estilos del body con grid*/
 body {
-    margin-top: 110px;
     background-color: white;
     color: black;
 }
 section{
+    padding-bottom: 50px;
     width: 100%;
     margin: 0 auto;
     max-width: 1000px;
@@ -82,7 +55,7 @@ h1{
     }
 
 /* boton index*/
-.btn{
+.btn__tienda{
     border: 3px solid rgb(100, 100, 100, 0.1);
     margin: 20px 410px 20px;
     padding: 20px;
@@ -92,7 +65,7 @@ h1{
     font-size: 16px;
     transition: padding 2s, transform 2s
 }
-.btn:hover{
+.btn__tienda:hover{
     background-color: rgb(236, 236, 236);
     color: aliceblue;
     font-size: 20px;
@@ -230,9 +203,7 @@ button{
 }
 /* aqui la idea es hacer un scroll lateral */
 @media(max-width:599px){
-    .producto__lista{
-        width: 70%;
-    }
+
 }
 
 /* Formulario de contacto */
@@ -449,33 +420,28 @@ button{
     }
     h1{
         font-size: 50px;
-        margin: 0px 400px 0px 0px;
+        margin: 100px 400px 0px 0px;
         text-align: center;
     }
     .imgPrincipal{
-        margin: 50px 190px 20px;
+        margin: 100px 190px 20px;
         height: 200px;
         width: 200px;
     }
     .p__body{
-        margin-top: 170px;
+        margin-top: 190px;
         margin-right: 450px;
         text-align: justify;
         
     }
     /* boton index */
-    .btn{
+    .btn__tienda{
         display: none;
-    }
-    .btn:hover{
-        background-color: cadetblue;
-        font-size: 20px;
-        border-radius: 10px;
     }
 
     .form{
-       margin-left: 90px;
-       width: 420px;
+    margin-left: 90px;
+    width: 420px;
     }
 
 
@@ -486,7 +452,7 @@ button{
     }
 
     .p__footer{
-       display: none;  
+    display: none;  
     }
 
     .footer__logo{
