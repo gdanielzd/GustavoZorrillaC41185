@@ -107,6 +107,9 @@ h1{
 
 .button__compras{
     margin-top: 5px;
+    background-color: #2183a2;
+    width: 150px;
+    height: 70px;
 }
 
 .h2__compras{
@@ -277,39 +280,6 @@ button{
 .contenedor__form .btn__enviar:hover{
     background: #e39403;
 }
-
-
-
-/* intento de grip productos 
-.grid2 {
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid;
-}
-
-.grid__producto--1 {
-    background-color: rgb(159, 161, 161);
-    width: 150px;
-    height: 150px;
-    text-align: center;
-}
-
-.grid__producto--2 {
-    background-color: rgb(159, 161, 161);
-    width: 150px;
-    height: 150px;
-    text-align: center;
-}
-
-.grid__producto--3 {
-    background-color: rgb(159, 161, 161);
-    width: 150px;
-    height: 150px;
-    text-align: center;
-} */
-
-/* animaciones */
-
 
 /* Footer */
 
