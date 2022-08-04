@@ -14,8 +14,8 @@
 </head>
 
 <body>
-    <header class="header">
-        <nav class="navbar navbar-expand-lg bg-light">
+    <header class="container">
+        <nav class="navbar navbar-expand-lg">
             <img class="header__logo" src="../img/Logo ecommerce.svg" alt="Logo
             de starbucks" width="100" height="100">
         <a href="#" class="header__icono">
@@ -83,37 +83,32 @@
                 </div>
         </div>            
     </section>
-    <section>
-        <div class="div__text">
-            <div>
-                <input type="text">
-            <input type="hidden" name="rut">
-                <label for="Rut">Rut</label>
-                <div></div>
+    <section class="container">
+        <form class="mb-form">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email
+                    address</label>
+                <input type="email" class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share
+                    your email with anyone else.</div>
             </div>
-        </div>
-        <div class="div__text">
-            <div>
-                <input type="password" name="password">
-                <input type="hidden" name="rut">
-                <label for="Rut">Clave</label>
-                <div></div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control"
+                    id="exampleInputPassword1">
             </div>
-        <div class="div__button">
-            <button class="button__compras" type="submit">Ingresar</button>
-            <button class="button__compras" type="reset">Borrar</button>
-        </div>
-        
-        </div>
-            <h2 class="h2__compras">No tienes cuenta?</h2>
-        <div>
-            <a class="a__compras" href="../pages/registro.html">Creala o Recuperala aqui</a>
-        </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input"
+                    id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check
+                    me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
     </section>
 </main>
-    
-    
-
     <footer class="footer">
         <div class="grid_hijo grid__hijo--6">
         <div class="footer__flex">
@@ -123,19 +118,19 @@
             </p>
             <p class="p__footer"> Correo: contacto@lagrantiendaweb.cl</p>
             <p class="p__footer"> Telefono: +56########</p>
-                <img class="footer__logo" src="/img/Logo ecommerce.svg" alt="logo de tienda" width="100" height="100">
+                <img class="footer__logo" src="../img/Logo ecommerce.svg" alt="logo de tienda" width="100" height="100">
         </div>
             <nav>
                 <ul class="footer__lista">
                     <li>
                         
-                        <a href="https://www.instagram.com/colorytecnologia/?hl=es"  target="_blank"> <img class="rrss__logo" src="/img/instagram.png" alt="logo instagram"></a>
+                        <a href="https://www.instagram.com/colorytecnologia/?hl=es"  target="_blank"> <img class="rrss__logo" src="../img/instagram.png" alt="logo instagram"></a>
                     </li>
                     <li>
-                        <a href="https://www.facebook.com/smartgraphicsspa/" target="_blank"> <img class="rrss__logo" src="/img/facebook.png" alt="Logo de Facebooñ"></a>
+                        <a href="https://www.facebook.com/smartgraphicsspa/" target="_blank"> <img class="rrss__logo" src="../img/facebook.png" alt="Logo de Facebook"></a>
                     </li>
                     <li>
-                        <a href="https://cl.linkedin.com/company/smart-graphic-solutions" target="_blank"> <img class="rrss__logo" src="/img/linkedin.png" alt="Logo de Linkedin"></a>
+                        <a href="https://cl.linkedin.com/company/smart-graphic-solutions" target="_blank"> <img class="rrss__logo" src="../img/linkedin.png" alt="Logo de Linkedin"></a>
                     </li>
                 </ul>
             </nav>
