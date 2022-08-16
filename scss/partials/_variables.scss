@@ -1,1 +1,9 @@
 $colorfondo: white;
+$botones: (
+    botoncontacto: orange,
+);
+@each $clave, $valor in $botones {
+    .btn-#{$clave} {
+        background-color: $valor;
+    }
+}

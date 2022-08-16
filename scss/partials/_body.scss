@@ -178,7 +178,7 @@ h4{
 }
 
 .contenedor__form a i{
-    color: orange;
+    color: $botones;
     margin-right: 10px;
 }
 
@@ -204,7 +204,7 @@ h4{
     font-size: 16px;
     border: none;
     outline: 0px;
-    background: orange;
+    background: $botones;
     color: #dbdbdb;
     border-radius: 3px;
     cursor: pointer;
@@ -212,5 +212,5 @@ h4{
 }
 
 .contenedor__form .btn__enviar:hover{
-    background: #e39403;
+    background: $botones;
 }
