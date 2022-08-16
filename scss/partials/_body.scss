@@ -160,14 +160,15 @@ h4{
     font-size: 35px;
 }
 
-.contenedor__form p{
-    font-size: 17px;
+.contenedor__form-p{
     line-height: 1.6;
     margin-bottom: 30px;
 }
-
-.contenedor__form a{
+.contenedor__form-p{
     font-size: 17px;
+}
+.contenedor__form a{
+    @extend .contenedor__form-p;
     display: inline-block;
     text-decoration: none;
     width: 100%;
@@ -200,8 +201,8 @@ h4{
 }
 
 .contenedor__form .btn__enviar{
+    @extend .contenedor__form-p;
     padding: 15px;
-    font-size: 16px;
     border: none;
     outline: 0px;
     background: $botones;
