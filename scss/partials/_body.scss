@@ -4,10 +4,10 @@ body {
     color: black;
 }
 section{
-    padding-bottom: 50px;
-    width: 100%;
-    margin: 0 auto;
-    max-width: 1000px;
+    padding-bottom: $estilosect;
+    width: $estilosect;
+    margin: $estilosect;
+    max-width: $estilosect;
 }
 h1{
     font-size: 60px;
