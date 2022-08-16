@@ -1,1 +1,24 @@
 $colorfondo: white;
+$botones: (
+    botoncontacto: orange,
+);
+@each $clave, $valor in $botones {
+    .btn-#{$clave} {
+        background-color: $valor;
+    }
+}
+/* Map Get*/
+$estilosect: (
+    pb: 50px,
+    wth: 100%,
+    mg: 0 auto,
+    mxw: 1000px
+);
+
+div {
+    padding-bottom: map-get($estilosect, pb);
+    width: map-get($estilosect, wth);
+    margin: map-get($estilosect, mg);
+    max-width: map-get($estilosect, mxw);
+}
+/* Extend*/

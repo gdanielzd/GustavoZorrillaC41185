@@ -4,10 +4,10 @@ body {
     color: black;
 }
 section{
-    padding-bottom: 50px;
-    width: 100%;
-    margin: 0 auto;
-    max-width: 1000px;
+    padding-bottom: $estilosect;
+    width: $estilosect;
+    margin: $estilosect;
+    max-width: $estilosect;
 }
 h1{
     font-size: 60px;
@@ -160,14 +160,15 @@ h4{
     font-size: 35px;
 }
 
-.contenedor__form p{
-    font-size: 17px;
+.contenedor__form-p{
     line-height: 1.6;
     margin-bottom: 30px;
 }
-
-.contenedor__form a{
+.contenedor__form-p{
     font-size: 17px;
+}
+.contenedor__form a{
+    @extend .contenedor__form-p;
     display: inline-block;
     text-decoration: none;
     width: 100%;
@@ -178,7 +179,7 @@ h4{
 }
 
 .contenedor__form a i{
-    color: orange;
+    color: $botones;
     margin-right: 10px;
 }
 
@@ -200,11 +201,11 @@ h4{
 }
 
 .contenedor__form .btn__enviar{
+    @extend .contenedor__form-p;
     padding: 15px;
-    font-size: 16px;
     border: none;
     outline: 0px;
-    background: orange;
+    background: $botones;
     color: #dbdbdb;
     border-radius: 3px;
     cursor: pointer;
@@ -212,5 +213,5 @@ h4{
 }
 
 .contenedor__form .btn__enviar:hover{
-    background: #e39403;
+    background: $botones;
 }
